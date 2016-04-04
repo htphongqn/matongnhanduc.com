@@ -189,15 +189,14 @@
                     </asp:RadioButtonList>
                 </td>
             </tr>
-            <tr style="height: 20px;display:none">
+            <tr style="height: 20px;">
                 <th valign="top" class="left">
                     Kiểu hiển thị
                 </th>
                 <td height="25">
                     <asp:RadioButtonList ID="rblCatType" runat="server" RepeatColumns="5">
                         <asp:ListItem Text="Tin tức" Value="0" Selected="True"></asp:ListItem>
-                        <%--<asp:ListItem Text="Dịch vụ" Value="1"></asp:ListItem>
-                        <asp:ListItem Text="Hình ảnh" Value="2"></asp:ListItem>--%>
+                        <asp:ListItem Text="Sản phẩm" Value="1"></asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
             </tr>

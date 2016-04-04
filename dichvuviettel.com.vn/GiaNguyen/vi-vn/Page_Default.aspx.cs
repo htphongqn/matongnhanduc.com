@@ -23,6 +23,7 @@ namespace THVDev
             {
                 Bind_icon();
 
+                UserControl list_pro = Page.LoadControl("../UIs/ProductList.ascx") as UserControl;
                 UserControl list_news = Page.LoadControl("../UIs/News.ascx") as UserControl;
                 UserControl details_news = Page.LoadControl("../UIs/New.ascx") as UserControl;
                 UserControl search = Page.LoadControl("../UIs/SearchResult.ascx") as UserControl;
@@ -35,11 +36,18 @@ namespace THVDev
                     case 3:
                         getsession.LoadCatInfo(_catSeoUrl);
                         Bind_meta_tags_cat();
-                        if (Utils.CIntDef(Session["Cat_showitem"]) == 1)
+                        if (Utils.CIntDef(Session["Cat_type"]) == 1)
                         {
-                            phdMain.Controls.Add(details_news);
+                            phdMain.Controls.Add(list_pro);
                         }
-                        else phdMain.Controls.Add(list_news);
+                        else
+                        {
+                            if (Utils.CIntDef(Session["Cat_showitem"]) == 1)
+                            {
+                                phdMain.Controls.Add(details_news);
+                            }
+                            else phdMain.Controls.Add(list_news);
+                        }
                         break;
                     case 5:
                         Bind_meta_tags_index();
@@ -50,7 +58,14 @@ namespace THVDev
                     case 6:
                         getsession.LoadNewsInfo(_newsSeoUrl);
                         Bind_meta_tags_news();
-                        phdMain.Controls.Add(details_news);
+                        if (getsession.Getcat_type(_newsSeoUrl) == 1)
+                        {
+                            //phdMain.Controls.Add(prodetails);
+                        }
+                        else
+                        {
+                            phdMain.Controls.Add(details_news);
+                        }
                         break;
                     default:
                         Response.Redirect("/trang-chu.html");
