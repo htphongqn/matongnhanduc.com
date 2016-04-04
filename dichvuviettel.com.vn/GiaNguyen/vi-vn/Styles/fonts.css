@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'UTMCaviar';
+	src: url(../fonts/UTMCaviar.eot);
+	src: url(../fonts/UTMCaviar.eot) format('embedded-opentype'), url(../fonts/UTMCaviar.otf) format('otf'), url(../fonts/UTMCaviar.woff) format('woff'), url(../fonts/UTMCaviar.ttf) format('truetype'), url(../fonts/UTMCaviar.svg) format('svg')
+}
+ 

@@ -1,0 +1,485 @@
+@charset "utf-8";
+/*===========import============*/
+@import"css.css";
+@import"font-awesome.min.css";
+@import"navx.css";
+@import"bxslider.css";
+@import"fonts.css";
+@import"nivo-slider.css";
+@import"fancybox.css";
+@import "animate.css";
+/*=======================*/
+body {
+}
+header, .menu, .slider, .main, footer {
+	width: 100%;
+	text-align: center;
+}
+header .container, .slider .container, .main .container, footer .container {
+	text-align: left;
+	display: inline-block;
+}
+.brand-name, .brand {
+	display: inline-block
+}
+.brand img {
+	width: 150px;
+}
+.brand-name img {
+	margin-left: 40px;
+	width: 700px;
+	max-width: 100%
+}
+header .container {
+	background: #EAE8E3 /*url(../images/bg.jpg)*/;
+	background-size: 100% auto;
+	padding: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: solid 0px #00918D;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.tt-side {
+	background: #00918D/* url(../images/bg-navy.gif)*/;
+	background-size: auto 100%;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 8px 0;
+	color: #fff;
+	border-radius: 4px
+}
+/*=============================navy*/
+.navy li {
+	background-size: auto 100%;
+	font-size: 13px;
+	padding: 5px 15px;
+	border-radius: 0px;
+	margin-top: 2px;
+	position: relative;
+	font-weight: bold;
+	background: #EAE8E3;
+	border-radius: 4px
+}
+.navy-2 li {
+	background-size: auto 100%;
+	font-size: 13px;
+	padding: 5px 15px;
+	position: relative;
+	font-weight: bold;
+	background: #EAE8E3;
+	margin-top: 1px;
+	border-radius: 3px
+}
+.navy li:hover {
+	background: #FFA117;
+	color: #00918D
+}
+.navy-2 li:hover a {
+	color: #F68B1F
+}
+.navy li:hover a {
+	color: #000
+}
+.navy li i.fa {
+	position: absolute;
+	right: 10px;
+	top: 30%
+}
+/*=============================navy*/
+.ads {
+	margin-top: 10px
+}
+.ads img {
+	width: 100%;
+	margin-bottom: 5px
+}
+.ads a {
+	display: inline-block;
+	width: 100%
+}
+.tt-main {
+	width: 100%;
+	color: #BB191F;
+	font-size: 15px;
+	text-transform: uppercase;
+	border-bottom: solid 1px #F68B1F;
+}
+.tt-main span {
+	background: #F68B1F url(../images/b-right.jpg) right top no-repeat;
+	padding: 6px 60px 6px 20px;
+	color: #fff;
+	display: inline-block;
+	background-size: auto 100%;
+}
+/*===========================media*/ 
+.media {
+	width: 100%;
+	display: inline-block;
+	padding: 13px 0;
+}
+.tt-media {
+	font-size: 1.1em;
+	color: #00918D
+}
+.photo-media img {
+	width: 150px;
+	margin-right: 15px;
+	float: left;
+	border: solid 1px #ccc
+}
+.text-media {
+}
+.tt-media a {
+	color: #00918D
+}
+/*===========================media*/
+/*================================detail-news*/
+.detail-news p {
+	margin: 5px 0;
+}
+.detail-news h1 {
+	color: rgb(0, 128, 128);
+	font-size: 1.2em;
+}
+.iblock {
+	padding: 10px 0;
+	overflow: hidden;
+}
+.main-content img {
+	max-width: 100%
+}
+#topcontrol {
+	z-index: 9999999
+}
+.block{ display:block !important}
+.function {
+	width: 100%;
+	float: left;
+	border-bottom: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+	padding: 5px 0;
+}
+.shareBox {
+	float: left;
+	margin-left: 5px;
+}
+.toolbarBox {
+	float: right;
+	margin-right: 5px;
+}
+.toolbarBox a {
+	margin-right: 10px;
+}
+.toolbarBox i {
+	margin-right: 5px
+}
+.otherNews {
+	width: 100%;
+	float: left;
+	margin-top: 25px;
+	padding: 0 1%
+}
+.otherNews {
+}
+.otherNews ul {
+	list-style-image: url(../images/li_f.png);
+	margin: 0;
+	padding: 0;
+	margin: 10px 15px;
+}
+.otherNews ul li a {
+	text-decoration: none;
+	color: #000
+}
+.otherNews ul li a:hover {
+	color: #00918D;
+	text-decoration: underline
+}
+.otherNews ul li {
+	margin: 5px 0;
+}
+.otherNews ul li small {
+	color: #00918D;
+	padding-left: 3px;
+}
+/*================================footer*/
+ 
+ 
+.footer div.container {
+	background: #00918D url(../images/bg-footer.png);
+	background-size: auto 100%;
+	padding: 10px;
+	color: #fff;
+	margin-bottom: 1px;
+}
+.address {
+	font-style: normal;
+	display: inline-block
+}
+.f-right {
+	float: right;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20px
+}
+/*=============================================================social*/
+.social {
+	text-align: center
+}
+.social span {
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-family: 'UTMCaviar';
+	font-size: 14px
+}
+.stt-visit {
+}
+.tt-f {
+	font-family: 'UTMCaviar';
+	font-size: 14px;
+	text-transform: uppercase;
+	border-bottom: dotted 1px #fff;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+.stt-visit b {
+	min-width: 50px;
+	display: inline-block
+}
+.social a i {
+	border: solid 0px #fff;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	background: #fff;
+	color: #F98B32;
+	padding: 5px;
+	text-align: center;
+	margin-top: 5px
+}
+.social a i:hover {
+	background: #F98B32;
+	color: #fff
+}
+.social {
+	font-size: 22px;
+}
+/*===============================httt*/
+.httt phone {
+	color: #f00;
+	font-weight: 700;
+	font-size: 1.2em
+}
+.hl {
+	text-align: center;
+	font-weight: 700;
+	margin: 7px 0
+}
+.httt .inner {
+	border: solid 1px #EAE8E3;
+	border-top: 0;
+	margin-bottom: 10px;
+	background: url(../images/bg-hotline.jpg) no-repeat;
+	padding-top: 90px;
+	font-size: 1.1em
+}
+.email {
+	padding: 1px 15px;
+	font-size: 13px;
+	font-weight: 400;
+	padding-bottom: 10px;
+	text-align: center
+}
+.email b {
+	font-weight: 600;
+	color: #F98B32
+}
+/*=================contact*/
+.contact {
+	padding: 15px 10%
+}
+.form-ct {
+	width: 100%;
+	padding-right: 0;
+	float: left
+}
+.map {
+	width: 100%;
+	float: right;
+	padding-top: 10px;
+}
+.form-ct input, .form-ct textarea {
+	border: solid 1px #ccc;
+	width: 100%;
+	min-height: 30px;
+	margin: 5px 0;
+	padding: 0 10px
+}
+.form-ct textarea {
+	padding: 5px 10px;
+	min-height: 100px
+}
+.address-ct {
+	font-style: normal;
+	width: 100%;
+	display: inline-block;
+	padding: 10px 0;
+	margin-top: 20px;
+}
+.send {
+	margin: 10px 0;
+	width: 100%
+}
+.send .btn-send {
+	padding: 5px 18px;
+	background: #00918D;
+	color: #fff;
+	vertical-align: top;
+	display: inline-block;
+	float: right;
+}
+.send .btn-send:hover {
+	background: #037976
+}
+.form-ct .captcha {
+	width: 130px;
+	margin: 0;
+	vertical-align: top;
+	display: inline-block;
+}
+.send img {
+	vertical-align: top;
+	display: inline-block;
+	height: 30px;
+}
+.slt {
+	border: solid 1px #ccc;
+	width: 100%;
+	min-height: 30px;
+	margin: 5px 0;
+	padding: 0 10px;
+	text-align: center
+}
+/*================================end*/
+/*===============================tim kiem*/
+.search {
+	position: absolute;
+	top: 12px;
+	right: 26px;
+}
+.trigger {
+	width: 30px;
+	height: 30px;
+	display: block;
+	color: #fff;
+	position: relative;
+	font-size: 17px
+}
+.popupSearch {
+	position: absolute;
+	top: 100%;
+	right: -10px;
+	min-width: 280px;
+	background: #00918C;
+	z-index: 10;
+	border: solid 1px #00918C;
+ 
+	background: #00918C;
+}
+.btn-close {
+	position: absolute;
+	left: -24px;
+	top: -1px;
+	background: #00918C;
+	color: #fff;
+	font-size: 17px;
+	padding: 5px;
+	height: 28px
+}
+.txt-search {
+	border: 0;
+	height: 26px;
+	float: left;
+	width: 213px;
+	text-indent: 10px;
+	font-size: 12px;
+	font-style: italic;
+	border-right: solid 1px #00918C;
+	background: #fff
+}
+.btn-search {
+	padding: 6px 21px;
+	cursor: default;
+	line-height: 26px;
+	color: #fff;
+	font-weight: bold
+}
+.btn-search:hover, .btn-close:hover {
+	color: #78E055
+}
+/*===============================end tim kiem*/
+ @media (max-width:767px) {
+.brand-name, .brand {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+}
+.brand-name img {
+	margin-left: 0;
+}
+.side-left .navy ul {
+	display: none
+}
+.tt-side {
+	position: relative;
+	text-align: left;
+	padding-left: 15px;
+}
+.ads {
+	display: none
+}
+.tt-side .fa {
+	position: absolute;
+	right: 10px;
+	top: 15%;
+	font-size: 22px;
+}
+.footer address {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px #fff;
+	width: 100%;
+}
+.f-right {
+	width: 50%;
+	margin: 0;
+	padding: 10px
+}
+.httt .inner {
+	padding-left: 210px;
+	padding-top: 0;
+}
+.httt .hl {
+	display: inline-block;
+	margin-left: 10px;
+}
+.contact {
+	padding: 15px 3%
+}
+.form-ct .captcha {
+	margin-bottom: 10px;
+}
+}
+@media (max-width:500px) {
+.httt .inner {
+	padding-left: 0px;
+	padding-top: 90px;
+}
+}
+
