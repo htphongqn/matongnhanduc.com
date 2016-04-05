@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="websitelink.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.websitelink" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="websitelink.aspx.cs" Inherits="matongnhanduc.com.page.websitelink" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Hỗ trợ trực tuyến | yeuthietkeweb</title>

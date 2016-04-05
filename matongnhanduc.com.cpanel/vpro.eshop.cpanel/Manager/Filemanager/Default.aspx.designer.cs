@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yeuthietkeweb.cpanel.Filemanager {
+namespace matongnhanduc.com.Filemanager {
     
     
     public partial class Default {

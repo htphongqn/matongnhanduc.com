@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="yeuthietkeweb.cpanel.page._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="matongnhanduc.com.page._default" %>
 
 <%@ Register Src="../ucControls/ucHeader.ascx" TagName="ucHeader" TagPrefix="uc1" %>
 <%@ Register Src="../ucControls/ucFooter.ascx" TagName="ucFooter" TagPrefix="uc2" %>

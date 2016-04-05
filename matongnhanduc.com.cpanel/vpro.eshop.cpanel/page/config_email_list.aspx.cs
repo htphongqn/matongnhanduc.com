@@ -8,11 +8,11 @@ using vpro.functions;
 
 using System.Data;
 using System.Web.UI.HtmlControls;
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 
 //Create by Lucnv 23-12-2012
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class config_email_list : System.Web.UI.Page
     {

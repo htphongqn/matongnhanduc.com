@@ -5,11 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 using vpro.functions;
 using System.IO;
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class config_footer : System.Web.UI.Page
     {

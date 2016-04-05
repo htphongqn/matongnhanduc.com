@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yeuthietkeweb.cpanel.page {
+namespace matongnhanduc.com.page {
     
     
     public partial class news_category {
@@ -82,7 +82,7 @@ namespace yeuthietkeweb.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::yeuthietkeweb.cpanel.ucControls.ucNewsInfo ucNewsInfo1;
+        protected global::matongnhanduc.com.ucControls.ucNewsInfo ucNewsInfo1;
         
         /// <summary>
         /// GridItemList control.

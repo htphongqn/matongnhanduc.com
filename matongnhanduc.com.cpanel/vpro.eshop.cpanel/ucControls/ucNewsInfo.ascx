@@ -1,5 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ucNewsInfo.ascx.cs"
-    Inherits="yeuthietkeweb.cpanel.ucControls.ucNewsInfo" %>
+    Inherits="matongnhanduc.com.ucControls.ucNewsInfo" %>
 <table width="100%" border="0">
     <tr>
         <td height="18" align="left" style="border-bottom: #e3e3e3 1px  solid;" class="general"

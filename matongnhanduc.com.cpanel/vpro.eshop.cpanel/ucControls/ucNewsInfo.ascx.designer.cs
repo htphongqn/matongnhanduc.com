@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yeuthietkeweb.cpanel.ucControls {
+namespace matongnhanduc.com.ucControls {
     
     
     public partial class ucNewsInfo {

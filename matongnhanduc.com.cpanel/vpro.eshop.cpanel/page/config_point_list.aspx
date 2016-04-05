@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="customer_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.customer_list" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="customer_list.aspx.cs" Inherits="matongnhanduc.com.page.customer_list" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Đơn vị tiền tệ | yeuthietkeweb </title>
     <script language="javascript">

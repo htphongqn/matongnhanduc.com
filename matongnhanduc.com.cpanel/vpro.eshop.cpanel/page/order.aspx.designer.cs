@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yeuthietkeweb.cpanel.page {
+namespace matongnhanduc.com.page {
     
     
     public partial class order {
@@ -118,7 +118,7 @@ namespace yeuthietkeweb.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::yeuthietkeweb.cpanel.Calendar.pickerAndCalendar ucDate;
+        protected global::matongnhanduc.com.Calendar.pickerAndCalendar ucDate;
         
         /// <summary>
         /// GridItemList control.

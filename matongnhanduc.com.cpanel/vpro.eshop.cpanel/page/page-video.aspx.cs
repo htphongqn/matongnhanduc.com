@@ -8,11 +8,11 @@ using vpro.functions;
 
 using System.Data;
 using System.Web.UI.HtmlControls;
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 using System.IO;
 using System.Net.Mail;
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class page_video : System.Web.UI.Page
     {

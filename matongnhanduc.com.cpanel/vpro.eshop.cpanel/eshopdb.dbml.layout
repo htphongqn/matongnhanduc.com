@@ -316,7 +316,7 @@
         <classShapeMoniker Id="8174438c-cfac-4ab0-9488-3e0b926b89e1" />
       </nodes>
     </associationConnector>
-    <associationConnector edgePoints="[(2.75 : 6.96875); (6.5 : 6.96875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+    <associationConnector edgePoints="[(2.75 : 6.96875); (5.57291666666667 : 6.96875 : JumpStart); (5.73958333333333 : 6.96875 : JumpEnd); (6.5 : 6.96875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
       <AssociationMoniker Name="/eshopdbDataContext/ESHOP_NEW/ESHOP_NEW_ESHOP_ORDER_ITEM" />
       <nodes>
         <classShapeMoniker Id="19429948-5ae6-4672-9ba4-be3dcc726520" />

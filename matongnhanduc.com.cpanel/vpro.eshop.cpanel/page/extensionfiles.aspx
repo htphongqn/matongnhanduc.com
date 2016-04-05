@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="extensionfiles.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.extensionfiles" %>
+    CodeBehind="extensionfiles.aspx.cs" Inherits="matongnhanduc.com.page.extensionfiles" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Dạng mở rộng file | yeuthietkeweb</title>

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yeuthietkeweb.cpanel.page {
+namespace matongnhanduc.com.page {
     
     
     public partial class news_list {

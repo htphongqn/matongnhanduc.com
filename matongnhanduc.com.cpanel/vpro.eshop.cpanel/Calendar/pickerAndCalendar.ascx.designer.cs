@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yeuthietkeweb.cpanel.Calendar {
+namespace matongnhanduc.com.Calendar {
     
     
     public partial class pickerAndCalendar {

@@ -8,10 +8,10 @@ using System.Data;
 using vpro.functions;
 using System.Web.UI.HtmlControls;
 using System.IO;
-using yeuthietkeweb.cpanel.ucControls;
-using yeuthietkeweb.cpanel.Components;
+using matongnhanduc.com.ucControls;
+using matongnhanduc.com.Components;
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class properties_list : System.Web.UI.Page
     {

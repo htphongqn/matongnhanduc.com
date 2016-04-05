@@ -4,13 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 using vpro.functions;
 using System.IO;
 
 //Create by LUCNV 23-12-2012
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class contact_config : System.Web.UI.Page
     {

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="page-video.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.page_video" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="page-video.aspx.cs" Inherits="matongnhanduc.com.page.page_video" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 <script language="javascript">
 				<!--

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="category_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.category_list" %>
+    CodeBehind="category_list.aspx.cs" Inherits="matongnhanduc.com.page.category_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>DS chuyên mục | yeuthietkeweb </title>

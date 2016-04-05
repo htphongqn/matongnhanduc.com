@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="page-email-send.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.page_email_send" %>
+    CodeBehind="page-email-send.aspx.cs" Inherits="matongnhanduc.com.page.page_email_send" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Email| yeuthietkeweb</title>

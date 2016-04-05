@@ -8,11 +8,11 @@ using vpro.functions;
 
 using System.Data;
 using System.Web.UI.HtmlControls;
-using yeuthietkeweb.cpanel.ucControls;
-using yeuthietkeweb.cpanel.Components;
+using matongnhanduc.com.ucControls;
+using matongnhanduc.com.Components;
 using System.IO;
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class category_list : System.Web.UI.Page
     {

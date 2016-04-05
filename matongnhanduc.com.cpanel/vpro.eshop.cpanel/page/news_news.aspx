@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="news_news.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.news_news" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="news_news.aspx.cs" Inherits="matongnhanduc.com.page.news_news" %>
 <%@ Register Src="../ucControls/ucNewsInfo.ascx" TagName="ucNewsInfo" TagPrefix="uc1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">

@@ -6,9 +6,9 @@ using System.Web;
 using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using yeuthietkeweb.cpanel;
+using matongnhanduc.com;
 
-namespace yeuthietkeweb.cpanel.Filemanager
+namespace matongnhanduc.com.Filemanager
 {
     public partial class Default : System.Web.UI.Page
     {

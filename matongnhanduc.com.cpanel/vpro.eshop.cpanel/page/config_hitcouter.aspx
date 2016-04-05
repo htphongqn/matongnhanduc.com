@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="config_hitcouter.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.config_hitcouter" %>
+    CodeBehind="config_hitcouter.aspx.cs" Inherits="matongnhanduc.com.page.config_hitcouter" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Lượt truy cập | yeuthietkeweb</title>

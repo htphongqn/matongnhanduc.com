@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" CodeBehind="email_ads_list.aspx.cs"
-    Inherits="yeuthietkeweb.cpanel.page.email_ads_list" %>
+    Inherits="matongnhanduc.com.page.email_ads_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Danh sách đăng ký nhận email| yeuthietkeweb</title>

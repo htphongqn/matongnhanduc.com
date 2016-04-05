@@ -7,10 +7,10 @@ using System.Web.UI.WebControls;
 using vpro.functions;
 
 using System.Data;
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 using System.Web.UI.HtmlControls;
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     //Code by Tran Van Minh 27/12/2012
     public partial class customer_list : System.Web.UI.Page

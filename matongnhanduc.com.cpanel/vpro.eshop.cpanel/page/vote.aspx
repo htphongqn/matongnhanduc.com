@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="vote.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.vote" %>
+    CodeBehind="vote.aspx.cs" Inherits="matongnhanduc.com.page.vote" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>VOTE | yeuthietkeweb</title>

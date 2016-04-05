@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 using vpro.functions;
 using System.Data;
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 using System.IO;
-using yeuthietkeweb.cpanel.Components;
+using matongnhanduc.com.Components;
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class area : System.Web.UI.Page
     {

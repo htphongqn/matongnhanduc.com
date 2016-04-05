@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yeuthietkeweb.cpanel {
+namespace matongnhanduc.com {
     
     
     public partial class youtube {

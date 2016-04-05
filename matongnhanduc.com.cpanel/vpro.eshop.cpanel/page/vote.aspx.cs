@@ -6,10 +6,10 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using vpro.functions;
 using System.Data;
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 using System.Reflection;
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class vote : System.Web.UI.Page
     {

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="config_footer.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.config_footer"
+    CodeBehind="config_footer.aspx.cs" Inherits="matongnhanduc.com.page.config_footer"
     ValidateRequest="false" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">

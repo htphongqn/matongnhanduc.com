@@ -1,5 +1,5 @@
 ﻿<%@ Register TagPrefix="ComponentArt" Namespace="ComponentArt.Web.UI" Assembly="ComponentArt.Web.UI" %>
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="pickerAndCalendar.ascx.cs" Inherits="yeuthietkeweb.cpanel.Calendar.pickerAndCalendar" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="pickerAndCalendar.ascx.cs" Inherits="matongnhanduc.com.Calendar.pickerAndCalendar" %>
 <script type="text/javascript">
 <!--
     function Picker_OnSelectionChanged(picker) {

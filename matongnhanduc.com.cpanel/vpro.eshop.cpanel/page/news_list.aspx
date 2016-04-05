@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="news_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.news_list" %>
+    CodeBehind="news_list.aspx.cs" Inherits="matongnhanduc.com.page.news_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>DS Sản phẩm - tin tức | yeuthietkeweb</title>

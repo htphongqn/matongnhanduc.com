@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yeuthietkeweb.cpanel.page {
+namespace matongnhanduc.com.page {
     
     
     public partial class _default {
@@ -46,7 +46,7 @@ namespace yeuthietkeweb.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::yeuthietkeweb.cpanel.ucControls.ucHeader ucHeader1;
+        protected global::matongnhanduc.com.ucControls.ucHeader ucHeader1;
         
         /// <summary>
         /// ucFooter1 control.
@@ -55,6 +55,6 @@ namespace yeuthietkeweb.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::yeuthietkeweb.cpanel.ucControls.ucFooter ucFooter1;
+        protected global::matongnhanduc.com.ucControls.ucFooter ucFooter1;
     }
 }

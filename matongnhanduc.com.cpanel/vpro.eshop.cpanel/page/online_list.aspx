@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="online_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.online_list" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="online_list.aspx.cs" Inherits="matongnhanduc.com.page.online_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>DS hỗ trợ trực tuyến | yeuthietkeweb </title>

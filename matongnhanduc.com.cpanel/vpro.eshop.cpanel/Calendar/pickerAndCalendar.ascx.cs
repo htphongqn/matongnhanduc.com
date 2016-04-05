@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using System.Globalization;
 using vpro.functions;
 
-namespace yeuthietkeweb.cpanel.Calendar
+namespace matongnhanduc.com.Calendar
 {
     public partial class pickerAndCalendar : System.Web.UI.UserControl
     {

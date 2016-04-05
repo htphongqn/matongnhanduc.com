@@ -1,5 +1,5 @@
 ﻿<%@ Register TagPrefix="ComponentArt" Namespace="ComponentArt.Web.UI" Assembly="ComponentArt.Web.UI" %>
-<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ucHeader.ascx.cs" Inherits="yeuthietkeweb.cpanel.ucControls.ucHeader" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ucHeader.ascx.cs" Inherits="matongnhanduc.com.ucControls.ucHeader" %>
 <div id="outer">
     <div id="logo">
     <a href="../page/default.aspx">

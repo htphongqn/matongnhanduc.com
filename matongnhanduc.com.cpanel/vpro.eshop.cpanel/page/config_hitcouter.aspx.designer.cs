@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yeuthietkeweb.cpanel.page {
+namespace matongnhanduc.com.page {
     
     
     public partial class config_hitcouter {

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace yeuthietkeweb.cpanel
+namespace matongnhanduc.com
 {
     public class Global : System.Web.HttpApplication
     {

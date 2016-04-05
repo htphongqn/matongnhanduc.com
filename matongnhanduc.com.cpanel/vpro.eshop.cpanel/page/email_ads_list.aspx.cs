@@ -6,11 +6,11 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using System.Web.UI.HtmlControls;
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 using vpro.functions;
 using System.IO;
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class email_ads_list : System.Web.UI.Page
     {

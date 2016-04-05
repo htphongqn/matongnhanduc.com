@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="area_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.area_list" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="area_list.aspx.cs" Inherits="matongnhanduc.com.page.area_list" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>DS khu vực | yeuthietkeweb </title>

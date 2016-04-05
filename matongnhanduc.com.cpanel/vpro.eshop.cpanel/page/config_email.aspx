@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="config_email.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.config_email" %>
+    CodeBehind="config_email.aspx.cs" Inherits="matongnhanduc.com.page.config_email" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Cấu hình Email | yeuthietkeweb</title>

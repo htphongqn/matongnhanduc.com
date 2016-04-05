@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="customer.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.customer" %>
+    CodeBehind="customer.aspx.cs" Inherits="matongnhanduc.com.page.customer" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Khách hàng | yeuthietkeweb</title>

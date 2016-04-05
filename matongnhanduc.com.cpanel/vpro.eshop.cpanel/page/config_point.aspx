@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="config_point.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.config_point" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="config_point.aspx.cs" Inherits="matongnhanduc.com.page.config_point" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Cấu hình tích lũy điểm | yeuthietkeweb</title>

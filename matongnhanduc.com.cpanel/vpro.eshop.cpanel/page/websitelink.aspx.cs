@@ -7,10 +7,10 @@ using System.Web.UI.WebControls;
 using vpro.functions;
 
 using System.Data;
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 using System.Web.UI.HtmlControls;
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class websitelink : System.Web.UI.Page
     {

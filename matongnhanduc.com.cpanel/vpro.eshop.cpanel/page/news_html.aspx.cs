@@ -5,13 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 using vpro.functions;
 using System.IO;
 using System.Text;
 
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class news_html : System.Web.UI.Page
     {

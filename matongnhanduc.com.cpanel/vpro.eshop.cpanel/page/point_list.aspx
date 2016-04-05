@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="point_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.point_list" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="point_list.aspx.cs" Inherits="matongnhanduc.com.page.point_list" %>
 
 <%@ Register Assembly="MSCaptcha" Namespace="MSCaptcha" TagPrefix="cc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">

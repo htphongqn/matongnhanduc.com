@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="area.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.area" %>
+    CodeBehind="area.aspx.cs" Inherits="matongnhanduc.com.page.area" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Khu vực | yeuthietkeweb </title>

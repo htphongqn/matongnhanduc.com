@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="yeuthietkeweb.cpanel.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="matongnhanduc.com.Global" Language="C#" %>

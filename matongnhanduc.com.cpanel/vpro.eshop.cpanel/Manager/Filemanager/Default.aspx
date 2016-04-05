@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="yeuthietkeweb.cpanel.Filemanager.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="matongnhanduc.com.Filemanager.Default" %>
 
 <!DOCTYPE html>
 

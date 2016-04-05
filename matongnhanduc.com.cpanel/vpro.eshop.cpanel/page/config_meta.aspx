@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="config_meta.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.config_meta" %>
+    CodeBehind="config_meta.aspx.cs" Inherits="matongnhanduc.com.page.config_meta" %>
 
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <%@ Register Assembly="Karpach.WebControls" Namespace="Karpach.WebControls" TagPrefix="cc1" %>

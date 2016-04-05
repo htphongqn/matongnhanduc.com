@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dichvuviettel.com.vn.cpanel", "vpro.eshop.cpanel\dichvuviettel.com.vn.cpanel.csproj", "{6D7A88D7-57B6-4B9C-B2A6-EE2AB1F43927}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matongnhanduc.com.cpanel", "vpro.eshop.cpanel\matongnhanduc.com.cpanel.csproj", "{6D7A88D7-57B6-4B9C-B2A6-EE2AB1F43927}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

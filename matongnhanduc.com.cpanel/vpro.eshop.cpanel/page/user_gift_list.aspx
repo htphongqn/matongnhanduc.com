@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="user_gift_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.user_gift_list" %>
+    CodeBehind="user_gift_list.aspx.cs" Inherits="matongnhanduc.com.page.user_gift_list" %>
 
 <%@ Register Src="../Calendar/pickerAndCalendar.ascx" TagName="pickerAndCalendar"
     TagPrefix="uc1" %>

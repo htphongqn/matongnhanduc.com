@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yeuthietkeweb.cpanel.page {
+namespace matongnhanduc.com.page {
     
     
     public partial class aditem {
@@ -154,7 +154,7 @@ namespace yeuthietkeweb.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::yeuthietkeweb.cpanel.Calendar.pickerAndCalendar ucFromDate;
+        protected global::matongnhanduc.com.Calendar.pickerAndCalendar ucFromDate;
         
         /// <summary>
         /// ucToDate control.
@@ -163,7 +163,7 @@ namespace yeuthietkeweb.cpanel.page {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::yeuthietkeweb.cpanel.Calendar.pickerAndCalendar ucToDate;
+        protected global::matongnhanduc.com.Calendar.pickerAndCalendar ucToDate;
         
         /// <summary>
         /// rblLanguage control.

@@ -7,12 +7,12 @@ using System.Web.UI.WebControls;
 using vpro.functions;
 
 using System.Data;
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 using System.Web.UI.HtmlControls;
 
 //Create by Lucnv 23-12-2012
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class contact : System.Web.UI.Page
     {

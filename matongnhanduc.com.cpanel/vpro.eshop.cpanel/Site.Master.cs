@@ -4,9 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using matongnhanduc.com;
 using vpro.functions;
 
-namespace yeuthietkeweb.cpanel
+namespace matongnhanduc.com
 {
     public partial class SiteMaster : System.Web.UI.MasterPage
     {

@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="config_banner.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.config_banner" %>
+    CodeBehind="config_banner.aspx.cs" Inherits="matongnhanduc.com.page.config_banner" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Cấu hình Banner| yeuthietkeweb</title>

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace yeuthietkeweb.cpanel.ucControls
+namespace matongnhanduc.com.ucControls
 {
     public partial class ucLeftmenu : System.Web.UI.UserControl
     {

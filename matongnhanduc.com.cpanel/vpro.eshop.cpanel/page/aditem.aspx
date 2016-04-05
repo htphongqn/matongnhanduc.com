@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
-    CodeBehind="aditem.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.aditem" %>
+    CodeBehind="aditem.aspx.cs" Inherits="matongnhanduc.com.page.aditem" %>
 
 <%@ Register Src="../Calendar/pickerAndCalendar.ascx" TagName="pickerAndCalendar"
     TagPrefix="uc1" %>

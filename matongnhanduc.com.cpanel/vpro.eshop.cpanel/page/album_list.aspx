@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="album_list.aspx.cs" Inherits="yeuthietkeweb.cpanel.page.album_list" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="album_list.aspx.cs" Inherits="matongnhanduc.com.page.album_list" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <title>Danh sách khách hàng | yeuthietkeweb </title>
     <script language="javascript">

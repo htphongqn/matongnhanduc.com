@@ -8,11 +8,11 @@ using vpro.functions;
 
 using System.Data;
 using System.Web.UI.HtmlControls;
-using yeuthietkeweb.cpanel.ucControls;
+using matongnhanduc.com.ucControls;
 
 //Create by lucnv 21-12-2012
 
-namespace yeuthietkeweb.cpanel.page
+namespace matongnhanduc.com.page
 {
     public partial class news_comment : System.Web.UI.Page
     {
