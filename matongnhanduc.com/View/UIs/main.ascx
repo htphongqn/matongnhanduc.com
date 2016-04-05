@@ -6,7 +6,7 @@
             <ItemTemplate>
                 <h1 class="tt-detail-news"><%# Eval("NEWS_TITLE") %></h1>
                 <p><%# Show_File_HTML(Eval("NEWS_SEO_URL"))%></p>   
-                <p><a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" title="<%# Eval("NEWS_TITLE") %>">[xem chi tiết]</a></p>                
+                <%--<p><a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" title="<%# Eval("NEWS_TITLE") %>">[xem chi tiết]</a></p>--%>                
             </ItemTemplate>
         </asp:Repeater>
       </article>
