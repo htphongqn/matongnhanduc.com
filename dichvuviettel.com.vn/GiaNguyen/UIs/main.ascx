@@ -1,7 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="main.ascx.cs" Inherits="THVDev.UIs.main" %>
 
 <section class="main-content">
-      <p class="tt-main"><span>Khuyến Mại</span></p>
       <article class="iblock detail-news">        
         <asp:Repeater ID="rptKhuyenmai" runat="server">
             <ItemTemplate>
@@ -11,7 +10,7 @@
             </ItemTemplate>
         </asp:Repeater>
       </article>
-      <p class="tt-main"><span>Tin tức</span></p>
+      <p class="tt-main"><span>Sản phẩm nổi bật</span></p>
       <div class="iblock list-media">
         <asp:Repeater ID="rptTinnoibat" runat="server">
             <ItemTemplate>

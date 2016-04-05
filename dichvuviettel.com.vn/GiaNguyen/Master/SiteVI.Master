@@ -31,7 +31,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <uc1:header ID="header1" runat="server" />
+    <%--<uc1:header ID="header1" runat="server" />--%>
     <uc1:top_menu ID="top_menu1" runat="server" />
     <uc1:silde_main ID="silde_main1" runat="server" />
     <main class="main" role="main">

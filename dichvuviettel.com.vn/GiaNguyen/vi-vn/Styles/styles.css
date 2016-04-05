@@ -523,3 +523,38 @@ header .container {
 }
 }
 
+.news_main li {
+ background-size: auto 100%;
+ font-size: 13px;
+ padding: 5px 5px;
+    min-height:60px;
+ border-radius: 0px;
+ margin-top: 2px;
+ position: relative;
+ font-weight: bold;
+ background: #EAE8E3;
+ border-radius: 4px
+}
+.news_main li:hover a {
+ color: #F68B1F
+}
+.img_general {
+    float: left;
+    margin-right: 5px;
+}
+.Title_news a {
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+}
+.pro_main {
+        margin-top: 10px;
+}
+.news_main {
+        margin-top: 10px;
+}
+.box_content_center {
+    border: solid 1px #EAE8E3;
+    padding:10px;
+}
+.h2Title { font: normal 13px Arial, Helvetica, sans-serif; padding: 8px 0 5px 0; }
