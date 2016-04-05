@@ -1,0 +1,17 @@
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn\GiaNguyen\bin\matongnhanduc.dll
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn\GiaNguyen\bin\matongnhanduc.pdb
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn\GiaNguyen\bin\Controller.dll
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn\GiaNguyen\bin\Model.dll
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn\GiaNguyen\bin\Controller.pdb
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn\GiaNguyen\bin\Model.pdb
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn\GiaNguyen\obj\Debug\matongnhanduc.dll
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn\GiaNguyen\obj\Debug\matongnhanduc.pdb
+H:\SoftWeb\matongnhanduc.com\matongnhanduc.com\View\bin\matongnhanduc.dll
+H:\SoftWeb\matongnhanduc.com\matongnhanduc.com\View\bin\matongnhanduc.pdb
+H:\SoftWeb\matongnhanduc.com\matongnhanduc.com\View\bin\Controller.dll
+H:\SoftWeb\matongnhanduc.com\matongnhanduc.com\View\bin\Model.dll
+H:\SoftWeb\matongnhanduc.com\matongnhanduc.com\View\bin\Controller.pdb
+H:\SoftWeb\matongnhanduc.com\matongnhanduc.com\View\bin\Model.pdb
+H:\SoftWeb\matongnhanduc.com\matongnhanduc.com\View\obj\Debug\matongnhanduc.csprojResolveAssemblyReference.cache
+H:\SoftWeb\matongnhanduc.com\matongnhanduc.com\View\obj\Debug\matongnhanduc.dll
+H:\SoftWeb\matongnhanduc.com\matongnhanduc.com\View\obj\Debug\matongnhanduc.pdb

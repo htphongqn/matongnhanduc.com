@@ -1,0 +1,12 @@
+E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\bin\vpro.eshop.cpanel.dll
+E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\bin\vpro.eshop.cpanel.pdb
+E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\obj\Debug\dichvuviettel.com.vn.cpanel.csprojResolveAssemblyReference.cache
+E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\obj\Debug\vpro.eshop.cpanel.dll.licenses
+E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\obj\Debug\vpro.eshop.cpanel.dll
+E:\WWW\dichvuviettel.com.vn\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\obj\Debug\vpro.eshop.cpanel.pdb
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\obj\Debug\vpro.eshop.cpanel.dll.licenses
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\bin\vpro.eshop.cpanel.dll
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\bin\vpro.eshop.cpanel.pdb
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\obj\Debug\dichvuviettel.com.vn.cpanel.csprojResolveAssemblyReference.cache
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\obj\Debug\vpro.eshop.cpanel.dll
+H:\SoftWeb\matongnhanduc.com\dichvuviettel.com.vn.cpanel\vpro.eshop.cpanel\obj\Debug\vpro.eshop.cpanel.pdb
