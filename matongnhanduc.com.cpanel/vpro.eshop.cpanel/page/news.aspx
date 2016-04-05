@@ -224,7 +224,7 @@
                     <asp:Label CssClass="user" ID="lblError" runat="server"></asp:Label>
                 </td>
             </tr>
-            <tr style="height: 20px;display:none">
+            <tr style="height: 20px;">
                 <th valign="top" class="left">
                     Loại thông tin
                 </th>
@@ -232,7 +232,7 @@
                     <asp:RadioButtonList ID="rblNewsType" runat="server" RepeatColumns="5" AutoPostBack="True"
                         OnSelectedIndexChanged="rblNewsType_SelectedIndexChanged">
                         <asp:ListItem Text="Tin tức" Value="0" Selected="True"></asp:ListItem>
-                        <%--<asp:ListItem Text="Dịch vụ" Value="1"></asp:ListItem>--%>
+                        <asp:ListItem Text="Sản phẩm" Value="1"></asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
             </tr>
@@ -336,7 +336,7 @@
                         <td height="25">
                             <asp:RadioButtonList ID="rblNewsPeriod" runat="server" RepeatColumns="4" 
                                 RepeatDirection="Horizontal">
-                                <asp:ListItem Text="Khuyến mãi" Value="1"></asp:ListItem>   
+                                <asp:ListItem Text="Chính" Value="1"></asp:ListItem>   
                                 <asp:ListItem Text="Nổi bật" Value="2"></asp:ListItem>
                                 <asp:ListItem Selected="True" Text="Khác" Value="20"></asp:ListItem>  
                             </asp:RadioButtonList>

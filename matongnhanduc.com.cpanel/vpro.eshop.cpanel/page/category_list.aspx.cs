@@ -177,10 +177,13 @@ namespace matongnhanduc.com.page
                 case 0:
                     str = "Trên";
                     break;
-                case 1: str = "Dưới";
+                case 1: str = "Trái";
                     break;
-                case 2: str = "Trên + Dưới";
+                case 2: str = "Phải";
                     break;
+                default:
+                    str = "Khác";
+                        break;
             }
             return str;            
         }
