@@ -15,7 +15,7 @@
         </div>
       </div>
       <nav class="navy">
-        <h2 class="tt-side">Dịch vụ</h2>
+        <h2 class="tt-side">Danh mục</h2>
         <ul>
           <asp:Repeater ID="rptMenu" runat="server">
             <ItemTemplate>
