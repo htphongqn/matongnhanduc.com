@@ -106,7 +106,7 @@ namespace matongnhanduc.UIs
                 //    //lbDesc.Text = list[0].NEWS_DESC;
                 //    //lbDate.Text = getDate(list[0].NEWS_PUBLISHDATE);
                 //}
-                lbCommentFace.Text = "<div class='fb-comments' data-href='http://matongnhanduc" + Request.RawUrl + "' data-numposts='5' data-colorscheme='light' data-width='100%'></div>";
+                lbCommentFace.Text = "<div class='fb-comments' data-href='http://matongnhanduc.com" + Request.RawUrl + "' data-numposts='5' data-colorscheme='light' data-width='100%'></div>";
             }
             catch (Exception ex)
             {
