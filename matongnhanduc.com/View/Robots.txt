@@ -1,0 +1,7 @@
+﻿# robots.txt
+User-agent: *
+Disallow: /aspnet_client/
+Disallow: /bin/
+Disallow: /cPanel/
+Disallow: /UIs/
+Disallow: /Logfiles/

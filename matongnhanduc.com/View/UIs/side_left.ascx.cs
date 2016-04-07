@@ -25,6 +25,7 @@ namespace matongnhanduc.UIs
                 Load_ads();
                 Load_Menu1();
                 Load_Tinnoibat();
+                Load_Pronoibat();
             }
         }
         protected void Load_Support()
@@ -141,6 +142,22 @@ namespace matongnhanduc.UIs
                 clsVproErrorHandler.HandlerError(ex);
             }
         }
+        public void Load_Pronoibat()
+        {
+            try
+            {
+                var list = index.Loadindex(1, 2, -1, 10);
+                if (list != null && list.ToList().Count > 0)
+                {
+                    rptPronoibat.DataSource = list;
+                    rptPronoibat.DataBind();
+                }
+            }
+            catch (Exception ex)
+            {
+                clsVproErrorHandler.HandlerError(ex);
+            }
+        }
         #region function
         public string GetLink(object News_Url, object News_Seo_Url, object cat_seo)
         {
@@ -166,6 +183,14 @@ namespace matongnhanduc.UIs
                 clsVproErrorHandler.HandlerError(ex);
                 return null;
             }
+        }
+        public string getDate(object News_PublishDate)
+        {
+            return fun.getDate(News_PublishDate);
+        }
+        public string Getprice(object price)
+        {
+            return fun.Getprice(price);
         }
         #endregion
     }

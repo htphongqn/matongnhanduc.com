@@ -233,6 +233,7 @@
                         OnSelectedIndexChanged="rblNewsType_SelectedIndexChanged">
                         <asp:ListItem Text="Tin tức" Value="0" Selected="True"></asp:ListItem>
                         <asp:ListItem Text="Sản phẩm" Value="1"></asp:ListItem>
+                        <asp:ListItem Text="Hình ảnh" Value="2"></asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
             </tr>
@@ -393,7 +394,7 @@
                 <table width="auto" border="0">                    
                     <tr>
                         <th valign="top" class="left">
-                            Giá Cũ
+                            Giá 
                         </th>
                         <td>                        
                             <input type="text" name="txtPriceSub" id="txtPriceSub" runat="server" onkeyup="this.value=formatNumeric(this.value);"
@@ -401,7 +402,7 @@
                                 value="0" />
                         </td>
                     </tr>
-                    <tr>
+                    <tr style="display:none">
                         <th valign="top" class="left">
                             % Giảm
                         </th>
@@ -410,7 +411,7 @@
                                 onblur="this.value=formatNumeric(this.value);"></asp:TextBox>
                         </td>
                     </tr>
-                    <tr>
+                    <tr style="display:none">
                         <th valign="top" class="left">
                             Giá giảm
                         </th>

@@ -22,12 +22,12 @@ namespace matongnhanduc.UIs {
         protected global::System.Web.UI.WebControls.Repeater rptKhuyenmai;
         
         /// <summary>
-        /// rptTinnoibat control.
+        /// rptPronoibat control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater rptTinnoibat;
+        protected global::System.Web.UI.WebControls.Repeater rptPronoibat;
     }
 }

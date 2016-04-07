@@ -46,41 +46,15 @@
             <div class="slide_v_product">
               <div id="jcarouse_new_product">
                 <ul>
-                  <li> <a href=""><img src="/vi-vn/data/product_01.jpg" alt="" width="165" height="110" /></a>
-                    <h2 class="h2Title"><a href="">Bơi thuyền đa năng tập mạnh...</a></h2>
-                    <div class="price">Giá: <span class="link_title">Liên hệ</span></div>
-                    <div class="clr"></div>
-                  </li>
-                  <li> <a href=""><img src="/vi-vn/data/product_01.jpg" alt="" width="165" height="110" /></a>
-                    <h2 class="h2Title"><a href="">Bơi thuyền đa năng tập mạnh...</a></h2>
-                    <div class="price">Giá: <span class="link_title">Liên hệ</span></div>
-                    <div class="clr"></div>
-                  </li>
-                  <li> <a href=""><img src="/vi-vn/data/product_01.jpg" alt="" width="165" height="110" /></a>
-                    <h2 class="h2Title"><a href="">Bơi thuyền đa năng tập mạnh...</a></h2>
-                    <div class="price">Giá: <span class="link_title">Liên hệ</span></div>
-                    <div class="clr"></div>
-                  </li>
-                  <li> <a href=""><img src="/vi-vn/data/product_01.jpg" alt="" width="165" height="110" /></a>
-                    <h2 class="h2Title"><a href="">Bơi thuyền đa năng tập mạnh...</a></h2>
-                    <div class="price">Giá: <span class="link_title">Liên hệ</span></div>
-                    <div class="clr"></div>
-                  </li>
-                  <li> <a href=""><img src="/vi-vn/data/product_01.jpg" alt="" width="165" height="110" /></a>
-                    <h2 class="h2Title"><a href="">Bơi thuyền đa năng tập mạnh...</a></h2>
-                    <div class="price">Giá: <span class="link_title">Liên hệ</span></div>
-                    <div class="clr"></div>
-                  </li>
-                  <li> <a href=""><img src="/vi-vn/data/product_01.jpg" alt="" width="165" height="110" /></a>
-                    <h2 class="h2Title"><a href="">Bơi thuyền đa năng tập mạnh...</a></h2>
-                    <div class="price">Giá: <span class="link_title">Liên hệ</span></div>
-                    <div class="clr"></div>
-                  </li>
-                  <li> <a href=""><img src="/vi-vn/data/product_01.jpg" alt="" width="165" height="110" /></a>
-                    <h2 class="h2Title"><a href="">Bơi thuyền đa năng tập mạnh...</a></h2>
-                    <div class="price">Giá: <span class="link_title">Liên hệ</span></div>
-                    <div class="clr"></div>
-                  </li>
+                    <asp:Repeater ID="rptPronoibat" runat="server">
+                        <ItemTemplate>
+                          <li> <a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" title="<%# Eval("NEWS_TITLE") %>"><img alt="<%# Eval("NEWS_TITLE") %>" src="<%# GetImageT(Eval("NEWS_ID"),Eval("NEWS_IMAGE3")) %>" width="100%" height="110" /></a>
+                            <h2 class="h2Title"><a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" title="<%# Eval("NEWS_TITLE") %>"><%# Eval("NEWS_TITLE") %></a></h2>
+                            <div class="price">Giá: <span><%# Getprice(Eval("News_Price1"))%></span></div>
+                            <div class="clr"></div>
+                          </li>                   
+                        </ItemTemplate>
+                    </asp:Repeater>  
                 </ul>
               </div>
             </div>

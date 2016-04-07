@@ -150,12 +150,13 @@ header .container {
 .mediaPro {
 	width: 49%;
 	display: inline-block;
-	padding: 13px 0;
+	padding: 10px 5px;
 	float:left;
     position:relative;
 }
 .photo-media-pro img {
 	width: 150px;
+    height: 150px;
 	margin-right: 8px;
 	float: left;
 	border: solid 1px #ccc
@@ -712,4 +713,9 @@ div.row_account .picker {
 }
 .copyright a {
     color: #F68B1F;
+}
+.price {
+    color: red;
+    font-size: 1.1em;
+    font-weight: 700;
 }

@@ -233,14 +233,14 @@ namespace matongnhanduc.com.page
                 if (G_info.ToList().Count > 0)
                 {
 
-                    if (G_info.ToList()[0].n.NEWS_TYPE == 0)
+                    if (G_info.ToList()[0].n.NEWS_TYPE == 01)
                     {
-                        dvProductDetails.Visible = dvPrice.Visible = false;
+                        dvProductDetails.Visible = dvPrice.Visible = true;
                        
                     }
                     else
                     {
-                        //dvProductDetails.Visible = dvPrice.Visible = true;
+                        dvProductDetails.Visible = dvPrice.Visible = false;
                         
                     }
                     trCat.Visible = false;
@@ -932,14 +932,11 @@ namespace matongnhanduc.com.page
                 int _iType = Utils.CIntDef(rblNewsType.SelectedValue);
                 switch (_iType)
                 {
-                    case 0:
-                        dvProductDetails.Visible = dvPrice.Visible = false;
-                        break;
                     case 1:
-                        dvProductDetails.Visible = dvPrice.Visible = true;
-  
+                        dvProductDetails.Visible = dvPrice.Visible = true;  
                         break;
                     default:
+                        dvProductDetails.Visible = dvPrice.Visible = false;
                         break;
                 }
             }

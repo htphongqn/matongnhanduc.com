@@ -19,7 +19,7 @@ namespace matongnhanduc.UIs
             if (!IsPostBack)
             {
                 Load_Khuyenmai();
-                Load_Tinnoibat();
+                Load_Pronoibat();
             }
         }
         private void Load_Khuyenmai()
@@ -48,15 +48,15 @@ namespace matongnhanduc.UIs
                 return null;
             }
         }
-        public void Load_Tinnoibat()
+        public void Load_Pronoibat()
         {
             try
             {
-                var list = index.Loadindex(0, 2, -1, 5);
+                var list = index.Loadindex(1, 2, -1, 10);
                 if (list != null && list.ToList().Count > 0)
                 {
-                    rptTinnoibat.DataSource = list;
-                    rptTinnoibat.DataBind();
+                    rptPronoibat.DataSource = list;
+                    rptPronoibat.DataBind();
                 }
             }
             catch (Exception ex)
@@ -89,6 +89,14 @@ namespace matongnhanduc.UIs
                 clsVproErrorHandler.HandlerError(ex);
                 return null;
             }
+        }
+        public string getDate(object News_PublishDate)
+        {
+            return fun.getDate(News_PublishDate);
+        }
+        public string Getprice(object price)
+        {
+            return fun.Getprice(price);
         }
         #endregion
     }
