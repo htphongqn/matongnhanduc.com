@@ -22,13 +22,13 @@ namespace matongnhanduc.UIs {
         protected global::System.Web.UI.WebControls.Literal lbTitle;
         
         /// <summary>
-        /// Rplistnews control.
+        /// Rplistpro control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater Rplistnews;
+        protected global::System.Web.UI.WebControls.Repeater Rplistpro;
         
         /// <summary>
         /// ltrPage control.

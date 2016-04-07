@@ -26,6 +26,7 @@ namespace matongnhanduc
                 UserControl list_pro = Page.LoadControl("../UIs/ProductList.ascx") as UserControl;
                 UserControl list_news = Page.LoadControl("../UIs/News.ascx") as UserControl;
                 UserControl details_news = Page.LoadControl("../UIs/New.ascx") as UserControl;
+                UserControl prodetails = Page.LoadControl("../UIs/ProDetail.ascx") as UserControl;
                 UserControl search = Page.LoadControl("../UIs/SearchResult.ascx") as UserControl;
                 int _type = Utils.CIntDef(Request["type"]);
                 string _catSeoUrl = Utils.CStrDef(Request.QueryString["curl"]);
@@ -60,7 +61,7 @@ namespace matongnhanduc
                         Bind_meta_tags_news();
                         if (getsession.Getcat_type(_newsSeoUrl) == 1)
                         {
-                            //phdMain.Controls.Add(prodetails);
+                            phdMain.Controls.Add(prodetails);
                         }
                         else
                         {
@@ -68,7 +69,7 @@ namespace matongnhanduc
                         }
                         break;
                     default:
-                        Response.Redirect("/trang-chu.html");
+                        Response.Redirect("/");
                         break;
                 }
             }

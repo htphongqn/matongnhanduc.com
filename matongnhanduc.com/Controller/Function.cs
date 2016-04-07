@@ -29,7 +29,7 @@ namespace Controller
         public string Getprice(object Price)
         {
             decimal _dPrice = Utils.CDecDef(Price);
-            return _dPrice != 0 ? String.Format("{0:0,0 VNĐ}",_dPrice) : "Liên hệ";
+            return _dPrice != 0 ? String.Format("{0:0,0 <u>đ</u>}",_dPrice) : "Liên hệ";
         }
         public string getDate(object News_PublishDate)
         {

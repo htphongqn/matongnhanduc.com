@@ -13,12 +13,11 @@ namespace matongnhanduc.UIs
     public partial class ProductList : System.Web.UI.UserControl
     {
         #region Declare
-        List_news lnews = new List_news();
         Function fun = new Function();
         clsFormat fm = new clsFormat();
         Pageindex_chage change = new Pageindex_chage();
         Propertity per = new Propertity();
-        Home index = new Home();
+        List_product list_pro = new List_product();
         int _Catid = 0;
         string _cat_seo_url = string.Empty;
         int _page = 0;
@@ -73,23 +72,22 @@ namespace matongnhanduc.UIs
         {
             try
             {
-                int sotin = (_typecat == 0 ? lnews.Getsotin(_Catid) : 100);
-                var list = lnews.Load_listnews(_Catid);
+                int sotin = list_pro.Getsotin(_Catid);
+                var list = list_pro.Load_listpro(_Catid);
                 if (list.Count > 0)
                 {
                     if (_page != 0)
                     {
-                        Rplistnews.DataSource = list.Skip(sotin * _page - sotin).Take(sotin);
-                        Rplistnews.DataBind();
+                        Rplistpro.DataSource = list.Skip(sotin * _page - sotin).Take(sotin);
+                        Rplistpro.DataBind();
                     }
                     else
                     {
-                        Rplistnews.DataSource = list.Take(sotin);
-                        Rplistnews.DataBind();
+                        Rplistpro.DataSource = list.Take(sotin);
+                        Rplistpro.DataBind();
                     }
 
                     ltrPage.Text = change.result(list.Count, sotin, _cat_seo_url, 0, _page, 1);
-
                 }
 
             }
@@ -101,22 +99,6 @@ namespace matongnhanduc.UIs
         }
 
         #region function
-        public string Getimages_Cat(object cat_id, object cat_img)
-        {
-            return fun.Getimages_Cat(cat_id, cat_img);
-        }
-        public string Getlink_Cat(object Cat_Url, object Cat_Seo_Url)
-        {
-            try
-            {
-                return fun.Getlink_Cat(Cat_Url, Cat_Seo_Url);
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-        }
         public string GetLink(object News_Url, object News_Seo_Url, object cat_seo)
         {
             try

@@ -667,6 +667,14 @@ namespace Controller
                 throw;
             }
         }
-
+        public string getTitleById(object newsId)
+        {
+            string str = "";
+            int _newsId = Utils.CIntDef(newsId);
+            var obj = db.ESHOP_NEWs.Where(n => n.NEWS_ID == _newsId).ToList();
+            if (obj.Count > 0)
+                str = obj[0].NEWS_TITLE;
+            return str;
+        }
     }
 }

@@ -7,81 +7,81 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace matongnhanduc.Master {
+namespace matongnhanduc.UIs {
     
     
-    public partial class SiteVI {
+    public partial class ProDetail {
         
         /// <summary>
-        /// head control.
+        /// lbTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
+        protected global::System.Web.UI.WebControls.Literal lbTitle;
         
         /// <summary>
-        /// form1 control.
+        /// Rpimg_small_news control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Repeater Rpimg_small_news;
         
         /// <summary>
-        /// top_menu1 control.
+        /// lbNewsTitle control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::matongnhanduc.UIs.top_menu top_menu1;
+        protected global::System.Web.UI.WebControls.Literal lbNewsTitle;
         
         /// <summary>
-        /// silde_main1 control.
+        /// liDesc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::matongnhanduc.UIs.silde_main silde_main1;
+        protected global::System.Web.UI.WebControls.Literal liDesc;
         
         /// <summary>
-        /// side_left1 control.
+        /// liPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::matongnhanduc.UIs.side_left side_left1;
+        protected global::System.Web.UI.WebControls.Literal liPrice;
         
         /// <summary>
-        /// ContentRight control.
+        /// liHtml control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentRight;
+        protected global::System.Web.UI.WebControls.Literal liHtml;
         
         /// <summary>
-        /// side_right1 control.
+        /// dvOtherNews control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::matongnhanduc.UIs.side_right side_right1;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl dvOtherNews;
         
         /// <summary>
-        /// Footer1 control.
+        /// Rptinkhac control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::matongnhanduc.UIs.Footer Footer1;
+        protected global::System.Web.UI.WebControls.Repeater Rptinkhac;
     }
 }
