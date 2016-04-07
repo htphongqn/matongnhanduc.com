@@ -2,7 +2,10 @@
 <footer class="footer" role="contentinfo">
   <div class="container">
     <address class="address">
-    <asp:Literal ID="Literal_Info" runat="server"></asp:Literal>
+        <asp:Literal ID="Literal_Info" runat="server"></asp:Literal>        
+        <div class="copyright">
+            © Bản quyền website thuộc Mật Ong Nhân Đức, All rights reserved . Thiết kế bởi <a href="http://yeuthietkeweb.com/" title="Yeu Thiet Ke Web">Yeu Thiet Ke Web.</a> 
+        </div>
     </address>
     <div class="f-right">
       <div class="social">
@@ -19,5 +22,5 @@
       <p class="stt-visit">Đang truy cập: <b><asp:Literal ID="lbOnline" runat="server"></asp:Literal></b></p>
       <p class="stt-visit">Tổng truy cập: <b><asp:Literal ID="lbTotal" runat="server"></asp:Literal></b></p>
     </div>
-  </div>
+  </div>    
 </footer>

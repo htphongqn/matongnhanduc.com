@@ -15,7 +15,7 @@
         </div>
       </div>
       <nav class="navy">
-        <h2 class="tt-side">Dịch vụ</h2>
+        <h2 class="tt-side">Danh mục</h2>
         <ul>
           <asp:Repeater ID="rptMenu" runat="server">
             <ItemTemplate>
@@ -91,15 +91,13 @@
         <h2 class="tt-side">Tin nổi bật</h2>
         <div class="box_content_center news">
             <ul>
-              <li><a href="news_detail.html"><img width="75" height="50" alt="" src="/vi-vn/data/news_01.jpg" class="img_general"></a>
-                <p class="Title_news"><a href="news_detail.html">Hướng dẫn cấu hình camera p2!</a></p>
-              </li>
-              <li><a href="news_detail.html"><img width="75" height="50" alt="" src="/vi-vn/data/news_01.jpg" class="img_general"></a>
-                <p class="Title_news"><a href="news_detail.html">Hướng dẫn cấu hình camera p2!</a></p>
-              </li>
-              <li><a href="news_detail.html"><img width="75" height="50" alt="" src="/vi-vn/data/news_01.jpg" class="img_general"></a>
-                <p class="Title_news"><a href="news_detail.html">Hướng dẫn cấu hình camera p2!</a></p>
-              </li>
+                <asp:Repeater ID="rptTinnoibat" runat="server">
+                    <ItemTemplate>            
+                      <li><a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" title="<%# Eval("NEWS_TITLE") %>"><img width="75" height="50" alt="<%# Eval("NEWS_TITLE") %>" src="<%# GetImageT(Eval("NEWS_ID"),Eval("NEWS_IMAGE3")) %>"  class="img_general"></a>
+                        <p class="Title_news"><a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" title="<%# Eval("NEWS_TITLE") %>"><%# Eval("NEWS_TITLE") %></a></p>
+                      </li>                  
+                    </ItemTemplate>
+                </asp:Repeater>        
             </ul>
             <div class="clearfix"></div>
           </div>

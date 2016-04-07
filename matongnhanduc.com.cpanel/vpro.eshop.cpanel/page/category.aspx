@@ -220,6 +220,7 @@
                         <asp:ListItem Selected="True" Text="Trên" Value="0"></asp:ListItem>
                         <asp:ListItem Text="Trái" Value="1"></asp:ListItem>
                         <asp:ListItem Text="Phải" Value="2"></asp:ListItem>
+                        <asp:ListItem Text="Khác" Value="20"></asp:ListItem>
                     </asp:RadioButtonList>
                 </td>
             </tr>

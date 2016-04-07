@@ -31,6 +31,8 @@ namespace matongnhanduc
 
         void Session_Start(object sender, EventArgs e)
         {
+            Guid _guid = System.Guid.NewGuid();
+            Session["news_guid"] = _guid;
             Application.Lock();
             Application["Online"] = Utils.CIntDef(Application["Online"]) + 1;
             Application.UnLock();
@@ -48,6 +50,8 @@ namespace matongnhanduc
 
         void Session_End(object sender, EventArgs e)
         {
+            Guid _guid = Guid.Parse(Utils.CStrDef(Session["News_guid"]));
+            cf.Deletebasket(_guid);
             Application.Lock();
             Application["Online"] = Utils.CIntDef(Application["Online"]) - 1;
             Application.UnLock();

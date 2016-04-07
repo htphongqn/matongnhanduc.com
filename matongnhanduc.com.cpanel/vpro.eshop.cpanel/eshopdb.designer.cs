@@ -161,8 +161,8 @@ namespace matongnhanduc.com
     partial void DeleteProduct(Product instance);
     #endregion
 		
-		public eshopdbDataContext() : 
-				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["hotel24h_netConnectionString"].ConnectionString, mappingSource)
+		public eshopdbDataContext() :
+        base(global::System.Configuration.ConfigurationManager.ConnectionStrings["chuyenchothue_comConnectionString"].ConnectionString, mappingSource)
 		{
 			OnCreated();
 		}

@@ -5,7 +5,7 @@
 <section class="main-content">
     <p class="tt-main"><span><asp:Literal ID="lbTitle" runat="server" Text="" /></span></p>
     <article class="iblock detail-news">
-    <h1 class="tt-detail-news"><asp:Literal ID="lbNewsTitle" runat="server" Text="" /></h1>
+    <h2 class="tt-detail-news"><asp:Literal ID="lbNewsTitle" runat="server" Text="" /></h2>
     <asp:Literal ID="liHtml" runat="server"></asp:Literal>
     </article>
     <div class="clearfix function">
@@ -32,7 +32,7 @@
     <ul>
         <asp:Repeater ID="RpNewsOther" runat="server">
             <ItemTemplate>
-                <li> <a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" title="<%# Eval("NEWS_TITLE") %>"><%# Eval("NEWS_TITLE") %><small class="date">(Ngày đăng <%# getDate(Eval("NEWS_PUBLISHDATE"))%>)</small></a> </li>
+                <li> <a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" title="<%# Eval("NEWS_TITLE") %>"><%# Eval("NEWS_TITLE") %></a><small class="date">(Ngày đăng <%# getDate(Eval("NEWS_PUBLISHDATE"))%>)</small> </li>
             </ItemTemplate>
         </asp:Repeater>
     </ul>
