@@ -27,6 +27,7 @@ namespace matongnhanduc.UIs
         {
             _sNews_Seo_Url = Utils.CStrDef(Request.QueryString["purl"]);
             Loaddetails();
+            Loadimgbig(100, 0, ref Rpimg_small);
             Loadimgbig(100, 0, ref Rpimg_small_news);
             Show_File_HTML();
             Tinkhac();
@@ -90,6 +91,9 @@ namespace matongnhanduc.UIs
                     lbNewsTitle.Text = list[0].NEWS_TITLE;
                     liDesc.Text = list[0].NEWS_DESC;
                     liPrice.Text = Getprice(list[0].NEWS_PRICE1);
+
+                    //Rpttintuc.DataSource = list.ToList().Take(1);
+                    //Rpttintuc.DataBind();
                 }
             }
             catch (Exception ex)
@@ -176,6 +180,10 @@ namespace matongnhanduc.UIs
         public string Getprice(object price)
         {
             return fun.Getprice(price);
+        }
+        public string getTitle(object News_Id)
+        {
+            return pro_detail.getTitleNews(News_Id);
         }
         #endregion
     }

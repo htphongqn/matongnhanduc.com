@@ -253,5 +253,15 @@ namespace Controller
         {
             return PathFiles.GetPathNews(news_id) + "baogia_" + news_id + ".doc";
         }
+
+        public string getTitleNews(object News_Id)
+        {
+            var obj = db.ESHOP_NEWs.Where(n => n.NEWS_ID == Utils.CIntDef(News_Id, 0)).ToList();
+            if (obj.Count > 0)
+            {
+                return obj[0].NEWS_TITLE;
+            }
+            else return "";
+        }
     }
 }

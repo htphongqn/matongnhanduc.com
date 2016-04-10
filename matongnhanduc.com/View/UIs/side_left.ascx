@@ -38,8 +38,8 @@
                         vertical: true,				// chạy theo chiều dọc
                         hoverPause: true,			// Hover vào nó sẽ dừng lại
                         visible: 2,					// Số bài viết cần hiện
-                        auto: 500,					// Tự động scroll
-                        speed: 1000					// Tốc độ scroll
+                        auto: 1000,					// Tự động scroll
+                        speed: 1500					// Tốc độ scroll
                     });
                 });
             </script>
@@ -48,7 +48,7 @@
                 <ul>
                     <asp:Repeater ID="rptPronoibat" runat="server">
                         <ItemTemplate>
-                          <li> <a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" title="<%# Eval("NEWS_TITLE") %>"><img alt="<%# Eval("NEWS_TITLE") %>" src="<%# GetImageT(Eval("NEWS_ID"),Eval("NEWS_IMAGE3")) %>" width="100%" height="110" /></a>
+                          <li> <a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" title="<%# Eval("NEWS_TITLE") %>"><img alt="<%# Eval("NEWS_TITLE") %>" src="<%# GetImageT(Eval("NEWS_ID"),Eval("NEWS_IMAGE3")) %>" width="100%" /></a>
                             <h2 class="h2Title"><a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" title="<%# Eval("NEWS_TITLE") %>"><%# Eval("NEWS_TITLE") %></a></h2>
                             <div class="price">Giá: <span><%# Getprice(Eval("News_Price1"))%></span></div>
                             <div class="clr"></div>

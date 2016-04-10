@@ -972,3 +972,9 @@ textarea {
 	font-size: larger
 }
 }
+
+/*Giỏ hàng*/
+.cart_page
+{
+    padding-top:25px;
+}

@@ -1,51 +1,86 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ProDetail.ascx.cs" Inherits="matongnhanduc.UIs.ProDetail" %>
-
-<link rel="stylesheet" href="/vi-vn/Styles/responsiveslides.css" type="text/css" media="screen" />
-<script type="text/javascript" src="/vi-vn/Scripts/responsiveslides.min.js"></script>
+<script src="../vi-vn/Ajax/Addtocart.js" type="text/javascript"></script>
+<script type="text/javascript" src="/vi-vn/Scripts/jquery-1.8.3.min.js"></script>
+<link rel="stylesheet" href="/vi-vn/Styles/detail_product.css" type="text/css" />
 <link href="/vi-vn/Styles/jquery.fancybox.css" media="all" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="/vi-vn/Scripts/jquery.fancybox.js"></script>
-<script type="text/javascript">
-    $(function () {
+<script type='text/javascript'>//<![CDATA[
+    $(document).ready(function () {
+        function showImage(o) {
+            $('#thumbnails_P li a').removeClass('current');
+            $(o).addClass('current');
+            var img = $('.inn #' + $(o).attr('for'));
+            if ($('.inn a:visible').length > 0) {
+                $('.inn a:visible').fadeOut('fast', function () {
+                    img.fadeIn('fast');
+                });
+            } else {
+                img.fadeIn('fast');
+            }
 
-        // Slideshow 4
-        $("#slider1").responsiveSlides({
-            auto: true,
-            pager: false,
-            pagination: false,
-            nav: true,
-            speed: 500,
-            timeout: 5000,
-            namespace: "callbacks",
-            before: function () {
-                $('.events').append("<li>before event fired.</li>");
+            return false;
+        }
+
+        $('#thumbnails_P li a').click(function () {
+            showImage(this);
+            return false;
+        });
+        $('#thumbnails_P li:first-child a').click();
+
+        //carouFredSel
+        $('#thumbnails_P ul').carouFredSel({
+            prev: '#prev2',
+            next: '#next2',
+            //responsive: true,
+            auto: false,
+            //width: '100%',
+            scroll: {
+                items: 4,
+                pauseOnHover: true
             },
-            after: function () {
-                $('.events').append("<li>after event fired.</li>");
+            speed: 2000,
+            duration: 3000,
+            items: {
+                visible: {
+                    min: 1,
+                    max: 4
+                }
             }
         });
+
         $(".zoom").fancybox({
             openEffect: 'elastic',
             closeEffect: 'elastic',
             autoPlay: 'true',
-            playSpeed: '5000'
+            playSpeed: '10000'
         });
     });
 </script>
+<script type="text/javascript" src="/vi-vn/Scripts/jquery.carouFredSel-5.6.0-packed.js"></script>
 <section class="main-content">
-    <p class="tt-main"><span><asp:Literal ID="lbTitle" runat="server" Text="" /></span></p>
-    <article class="iblock detail-news" style="position: relative;">
-
-        <div class="proleftdet fl">
-            <div class="callbacks_container" id="pro_detail_slide">
-              <ul class="rslides" id="slider1">
+    <p class="tt-main"><span><asp:Literal ID="lbTitle" runat="server"/></span></p>
+    <article class="iblock detail-pros" style="position: relative;">
+        <div class="pro_left">
+          <div class="main_img boxcenter">
+            <div class="midd">
+              <div class="inn">
                 <asp:Repeater ID="Rpimg_small_news" runat="server">
-                <ItemTemplate>
-                    <li><a href="<%# GetImageT(Eval("NEWS_ID"),Eval("NEWS_IMG_IMAGE1")) %>" rel="gallery1" class="img-box zoom" title="<%# GetTitle(Eval("NEWS_ID"))%>"> <img src="<%# GetImageT(Eval("NEWS_ID"),Eval("NEWS_IMG_IMAGE1")) %>" alt="<%# GetTitle(Eval("NEWS_ID"))%>" /> </a> </li>
-                </ItemTemplate>
+                  <ItemTemplate> <a id='<%#Eval("NEWS_IMG_ID") %>' href="<%# GetImageT(Eval("NEWS_ID"),Eval("NEWS_IMG_IMAGE1")) %>" title="<%# getTitle(Eval("NEWS_ID"))%>" rel="gallery1" class="img-box zoom" style="display: none;"> <img  src="<%# GetImageT(Eval("NEWS_ID"),Eval("NEWS_IMG_IMAGE1")) %>" alt="<%# getTitle(Eval("NEWS_ID"))%>" /><span class="zoom_icon"></span><span class="text_click">Click xem ảnh lớn</span></a> </ItemTemplate>
                 </asp:Repeater>
-              </ul>
+              </div>
             </div>
           </div>
+          <div id="thumbnails_P">
+            <ul>
+              <asp:Repeater ID="Rpimg_small" runat="server">
+                <ItemTemplate>
+                  <li class="thumb"><a href="javascript: return false;" for="<%#Eval("NEWS_IMG_ID") %>"><img src="<%# GetImageT(Eval("NEWS_ID"),Eval("NEWS_IMG_IMAGE1")) %>" alt="<%# getTitle(Eval("NEWS_ID"))%>" /></a></li>
+                </ItemTemplate>
+              </asp:Repeater>
+            </ul>
+            <div class="cf"></div>
+            <a id="prev2" class="prev" href="#">&lt;</a> <a id="next2" class="next" href="#">&gt;</a> </div>
+        </div>
 
         <div class="fl detailRight">
             <h1 class="tt-detail-news"><asp:Literal ID="lbNewsTitle" runat="server" Text="" /></h1>
@@ -63,11 +98,17 @@
             </div>
             <div class="desc"><asp:Literal ID="liDesc" runat="server"></asp:Literal></div>
             <div class="price">Giá: <span><asp:Literal ID="liPrice" runat="server"></asp:Literal></span></div>
-            <div class="buy"><a>Mua ngay</a></div>
+            <%--<div class="buy">
+                <asp:Repeater ID="Rpttintuc" runat="server">
+                <ItemTemplate>
+                    <a href='javascript:void(0)' onclick="addtocart(<%# Eval("NEWS_ID") %>,1)">Mua ngay</a>
+                </ItemTemplate>
+                </asp:Repeater>
+            </div>--%>
+
+            <asp:Literal ID="liHtml" runat="server"></asp:Literal>
         </div>
     </article>
-
-    <asp:Literal ID="liHtml" runat="server"></asp:Literal>
 
     
     <div class="clearfix otherNews iblock list-media" id="dvOtherNews" runat="server">
@@ -86,3 +127,4 @@
         </asp:Repeater>
     </div>      
 </section>
+<div class="cf"></div>

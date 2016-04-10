@@ -186,6 +186,7 @@ header .container {
 }
 .iblock {
 	padding: 0;
+    padding-top: 10px;
 	overflow: hidden;
 }
 .main-content img {
@@ -249,11 +250,11 @@ header .container {
  
  
 .footer div.container {
-	background: #00918D url(../images/bg-footer.png);
 	background-size: auto 100%;
-	padding: 10px;
-	color: #fff;
-	margin-bottom: 1px;
+    padding-top: 10px;
+    color: #444;
+    margin-bottom: 1px;
+    border-top: 2px solid #00918D;
 }
 .address {
 	font-style: normal;
@@ -279,10 +280,9 @@ header .container {
 .stt-visit {
 }
 .tt-f {
-	font-family: 'UTMCaviar';
 	font-size: 14px;
 	text-transform: uppercase;
-	border-bottom: dotted 1px #fff;
+	border-bottom: dotted 1px #444;
 	margin-bottom: 5px;
 	padding-bottom: 5px;
 }
@@ -463,6 +463,11 @@ header .container {
 	color: #78E055
 }
 /*===============================end tim kiem*/
+@media (max-width:979px){
+    .side-left{
+    display:none !important;
+    }
+}
  @media (max-width:767px) {
 .brand-name, .brand {
 	display: inline-block;
@@ -571,12 +576,6 @@ header .container {
 .h2Title { font: normal 13px Arial, Helvetica, sans-serif; padding: 8px 0 5px 0; }
 
 .proleftdet {
-    width: 40%;
-    height: 252px;
-    padding: 5px;
-    border: 1px solid #FFF;
-    background: #E0DED2;
-    overflow: hidden;
     position: relative;
 }
 #pro_detail_slide {
@@ -589,39 +588,7 @@ header .container {
 {
     float:left;
 }
-.detailRight
-{
-    padding-left:5px;
-    width: 55%;
-}
-.detailRight .desc
-{
-    padding-top: 10px;
-    white-space: pre-wrap;
-}
-.detailRight .price
-{
-    padding-top: 10px;
-    color:red;
-    font-size: 1.5em;
-    }
-.detailRight .price span
-{
-    font-weight:700;
-    }
-.detailRight .buy
-{
-    bottom: 12px;
-    right:20px;
-    position: absolute;
-    }
-.detailRight .buy a
-{
-    padding: 5px 20px;
-    background: #dc7309;
-    color: #fff;
-    border-radius: 4px;
-}
+
 /*Payment*/
 .box_ct {
     margin-top:15px

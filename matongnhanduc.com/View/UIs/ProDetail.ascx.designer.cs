@@ -31,6 +31,15 @@ namespace matongnhanduc.UIs {
         protected global::System.Web.UI.WebControls.Repeater Rpimg_small_news;
         
         /// <summary>
+        /// Rpimg_small control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Repeater Rpimg_small;
+        
+        /// <summary>
         /// lbNewsTitle control.
         /// </summary>
         /// <remarks>

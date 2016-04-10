@@ -3,13 +3,11 @@
 <asp:Literal ID="ltrFavicon" runat="server" EnableViewState="false"></asp:Literal>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentRight" runat="server">
-<div class="container">
-   <div class="box bgWhite">
-        <div class=" headingBox hdb2 "><span>Giỏ hàng</span></div>
+<section class="main-content">
+        <p class="tt-main"><span>Giỏ hàng</span></p>
         <div id="cart_page" class="bgWhite">
 
           <div class="row_th_cart">
-            <h3 class="th_table_cart fl" style="width: 15%"> Hình ảnh </h3>
             <h3 class="th_table_cart fl" style="width: 40%"> Tên Sản Phẩm </h3>
             <h3 class="th_table_cart fl" style="width: 15%"> Giá Bán </h3>
             <h3 class="th_table_cart fl" style="width: 10%"> Số Lượng </h3>
@@ -20,7 +18,6 @@
                     <!--Item Cart-->
           <div class="item_cart fl"> 
             <a href="<%# GetLink(Eval("NEWS_URL"),Eval("NEWS_SEO_URL"),Eval("CAT_SEO_URL")) %>" target='_parent' class='img_cart fl'>
-            <img src="<%# GetImageT(Eval("NEWS_ID"),Eval("NEWS_IMAGE3")) %>" /></a>
             <div class="cell name">
               <div> <span> <%# Eval("NEWS_TITLE") %></span></div>
             </div>
@@ -57,14 +54,11 @@
             </div>
           </div>
           <div class="button_cart"> 
-          <a class=" btn btn-primary fl" href="/b1.html">Tiến hành đặt hàng >></a> 
-            <a class=" btn btn-primary fl" href="/san-pham.html"> Mua thêm sản phẩm khác</a>
+          <a class=" btn btn-primary fl" href="/thanh-toan.html">Tiến hành đặt hàng >></a> 
+            <a class=" btn btn-primary fl" href="/"> Mua thêm sản phẩm khác</a>
             <asp:LinkButton ID="Lbcapnhap" runat="server" CssClass=" btn btn-primary fl" OnClick="Lbcapnhap_Click">Cập nhật giỏ hàng</asp:LinkButton> 
           </div>
         </div>
         <!--end Cart Page--> 
-      </div>
-   
-   
-</div>
+</section>
 </asp:Content>

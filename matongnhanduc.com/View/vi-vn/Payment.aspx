@@ -21,7 +21,7 @@
         <div class="row_account">
             <label class="item_title"> Họ tên:<span class="required">*</span></label>
             <input class="inputbox" type="text" name="txtFullname" id="txtFullname" runat="server" />
-        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Chưa nhập họ tên!"
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Chưa nhập họ tên!"
                 ControlToValidate="txtFullname" Display="None" ForeColor="Red" ValidationGroup="G8"></asp:RequiredFieldValidator>
         </div>
         <div class="row_account">
